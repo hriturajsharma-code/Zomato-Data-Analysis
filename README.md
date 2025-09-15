@@ -103,17 +103,12 @@ Dining resturants primarily accept offline orders,whereas cafe primarily receive
 The analysis reveals important patterns in customer behavior on Zomato. Dining restaurants lead in popularity, receiving the most orders, votes, and offline engagement, while online orders are generally rated higher. Couples show a preference for affordable dining options, and cafes are more popular for online orders. Overall, both online and offline modes play significant roles, but customer satisfaction trends lean more toward online ordering.
 
 ## Key Insights:
-
-Dining restaurants dominate in orders and votes.
-
-Most ratings fall in the 3.5–4 range, reflecting good satisfaction.
-
-Couples prefer restaurants with an average spend of ₹300.
-
-Online orders receive higher ratings than offline ones.
-
-Dining = more offline orders, Cafes = more online orders.
-
+ 
+- Dining restaurants dominate in orders and votes.  
+- Most ratings fall in the **3.5–4** range, reflecting good satisfaction.  
+- Couples prefer restaurants with an average spend of **₹300**.  
+- Online orders receive **higher ratings** than offline ones.  
+- **Dining = more offline orders**, **Cafes = more online orders**.  
 
 
 
