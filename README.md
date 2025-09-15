@@ -1,7 +1,7 @@
 ![Zomato logo](https://github.com/hriturajsharma-code/Zomato-Data-Analysis/blob/d59e82953b645b287f4ff667af07831bc10149fc/Zomato%20logo.png)
 
 
-## Zomato-Data-Analysis
+# Zomato-Data-Analysis
 This project utilizes Python for a comprehensive analysis of the Zomato dataset, aiming to extract valuable insights and address key business questions.
 
 ## Project Objectives
@@ -58,7 +58,7 @@ plt.xlabel("Type of restaurant")
 ```
 ![countplot](https://github.com/hriturajsharma-code/Zomato-Data-Analysis/blob/a4bc00fa52fb0896d45caed17859888340442690/Chart1.png)
 
-# summery : 
+## Chart Insights :
 The majority of the resturants fall into the dining category.
 
 ### 2) How many votes has each type of restaurant received from customers?
@@ -71,7 +71,7 @@ plt.ylabel("Votes", c="red", size=20)
 ```
 ![votes](https://github.com/hriturajsharma-code/Zomato-Data-Analysis/blob/a4bc00fa52fb0896d45caed17859888340442690/chart2.png)
 
-# summery : 
+## Chart Insights :
 The majority of votes have received from the customers in dining category.
 
 ### 3) What are the ratings that the majority of restaurants have received?
@@ -82,7 +82,7 @@ plt.show()
 ```
 ![histplot](https://github.com/hriturajsharma-code/Zomato-Data-Analysis/blob/a4bc00fa52fb0896d45caed17859888340442690/chart3.png)
 
-# summery :
+## Chart Insights :
 The majority of resturants received ratings from 3.5 to 4
 
 ### 4) Zomato has observed that most couples order most of their food online. What is their average spending on each order?
@@ -92,7 +92,7 @@ Sns.countplot(x=couple_data)
 ```
 ![couple](https://github.com/hriturajsharma-code/Zomato-Data-Analysis/blob/a4bc00fa52fb0896d45caed17859888340442690/chart4.png)
  
-# summery :
+## Chart Insights :
 The majority of couples prefer resturants with an approximate cost of 300 rupees.Whether online orders receive higher ratings than offline orders.
 
 ### 5) Which mode (online or offline) has received the maximum rating?
@@ -101,7 +101,7 @@ plt.figure(figsize=(6,6))
 sns.boxplot(x='online_order', y='rate', data=dataframe)
 ```
 ![boxplot](https://github.com/hriturajsharma-code/Zomato-Data-Analysis/blob/a4bc00fa52fb0896d45caed17859888340442690/chart5.png)
-# summery :
+## Chart Insights :
 Offline orders received lower ratings in comparison to online orders, which obtained excellent ratings
 
 ### 6) Which type of restaurant received more offline orders, so that Zomato can provide those customers with some good offers?
@@ -114,7 +114,7 @@ plt.ylabel("Listed In (Type)")
 plt.show()
 ```
 ![heatmap](https://github.com/hriturajsharma-code/Zomato-Data-Analysis/blob/a4bc00fa52fb0896d45caed17859888340442690/chart6.png)
-# summery :
+## Chart Insights :
 Dining resturants primarily accept offline orders,whereas cafe primarily receive online orders. THis suggests that clients prefer to place orders in person at restaurants, but prefer online ordering at cafes.
 
 # Conclusion
